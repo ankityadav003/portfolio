@@ -1,0 +1,94 @@
+@keyframes name {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes name-l {
+  0% {
+    transform: scale(0.8);
+    opacity: .5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes button {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes button2 {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes button3 {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes links {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  50%{
+    opacity: 0;
+  }
+  95%{
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes line-s {
+  0% {width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes lines {
+  0% {width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes floating {
+  0% {
+      transform: translate(0%, 10%);
+  }
+  50% {
+      transform: translate(0%, -10%);
+  }
+  100% {
+      transform: translate(0%, 10%);
+  }
+}

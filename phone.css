@@ -1,0 +1,543 @@
+@media screen and (max-width: 1140px) {
+  .service-text h1 {
+    font-size: 2rem;
+  }
+  .left h1 {
+    font-size: 1.5rem;
+  }
+  .service {
+    width: 100%;
+  }
+  .services {
+    width: 40%;
+    padding: 10px;
+  }
+  .contact-me {
+    padding: 3vw 1vw;
+  }
+  .last-nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .contact-icon {
+    justify-content: space-around;
+  }
+  .contact-icon h4 {
+    padding: 0;
+  }
+  .contact-icon a {
+    padding: 7px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  
+.sticky {
+  width: 100%;
+}
+  header{
+    display: none;
+  }
+  .logo h2
+  {
+    display: block;
+  }
+  .nav-links ul li {
+    display: none;
+  }
+  #ham{
+    display: block;
+  }
+  .line {
+    width: 50%;
+  }
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  main h1 {
+    font-size: 4rem;
+  }
+  .second-navbar {
+    display: initial;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+  }
+  .logo {
+    width: 35%;
+    margin-left: 1vw;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .main-links{
+    position: initial;
+  }
+  .social-icon  {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .service-text{
+    flex-direction: column;
+  }
+  input {
+    width: 70vw;
+  }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+  textarea {
+    width: 70vw;
+  }
+  .contact-card {
+    width: 70vw;
+  }
+  .main-article {
+    flex-direction: column;
+  }
+  .left {
+    width: 90%;
+  }
+  .right {
+    width: 90%;
+    padding: 0 20px;
+    justify-content: flex-start;
+  }
+  .row {
+    padding-left: 20px;
+  }
+  .row h1 {
+    font-size: 3rem;
+  }
+  .row h3 {
+    font-size: 1rem;
+  }
+ .skill-card .line-1{
+    width: 100%;
+  }
+  .skill-card .line-2{
+    width: 100%;
+  }
+  .skill-card .line-3{
+    width: 100%;
+  }
+  .skill-card .line-4{
+    width: 100%;
+  }
+  .skill-card .line-5{
+    width: 100%;
+  }
+  .skill-card .line-6{
+    width: 100%;
+  }
+  .skill-card .line-7{
+    width: 100%;
+  }
+  .skill-card .line-8{
+    width: 100%; 
+  }
+  .work-text {
+    width: 90%; 
+    margin-inline: auto;
+  }
+  
+  .about-container {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .hire-section {
+    flex-direction: column;
+    margin: 0 2vw;
+  }
+  .hire-first {
+    width: 90%;
+  }
+  .hire-second {
+    width: 90%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .contact-icon {
+    width: 90%;
+  }
+  .contact-icon a {
+    padding: 20px;
+  }
+  .copyright-section {
+    padding: 2vw;
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 750px) {
+  .line-s {
+    width: 100%;
+    height: 4px;
+  }
+  
+  .line-s::before {
+    width: 14px;
+    height: 14px;
+    bottom: -5px;
+  }
+  .skill-sec {
+    flex-direction: row;
+  }
+  .skill-text {
+    width: 30%;
+    margin-inline: auto;
+    margin: 10px;
+  }
+  .skill-card {
+    width: 60%;
+  }
+  .logo {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .thanks-section{
+    top: 20vh;
+    width: 70vw;
+    height: 35vh;
+  }
+  .second-modal h1{
+    font-size: 1.5rem;
+  }
+  .first-modal{
+    width: 90vw;
+    height: 80vh;
+    left: 4vw;
+  }
+}
+@media screen and (max-width: 525px) {
+  .first-modal{
+    width: 90vw;
+    height: 80vh;
+  }
+  .first-modal {
+    left: 5vw;
+  }
+  .first-modal{
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  padding-bottom: 5vh;
+  }
+  .contact-icon a {
+    width: 30px;
+    height: 30px;
+  }
+}
+ @media screen and (max-width: 500px) {
+ 
+  nav{
+    height: 7vh;
+    font-size: .8rem;
+    padding: 5px;
+  }
+  nav h2{
+    font-size:1.5rem;
+  }
+  main{
+    line-height: 4rem;
+  }
+  main h1{
+    font-size: 2.5rem;
+  }
+  main h2{
+    font-size: 1.8rem;
+  }
+  main h2 span{
+    font-size: 1.8rem;
+  }
+  main h3{
+    font-size: 1.5rem;
+  }
+  .second-navbar {
+    padding: 15px;
+    height:7vh ;
+  }
+  article {
+    line-height: 1;
+  }
+  .service-text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+  .left {
+    width: 100%;
+    line-height: 1.5;
+  }
+  .left h1 {
+    font-size: 1rem;
+  }
+  .left h1 span {
+    font-size: 1.2rem;
+  }
+  .right {
+    width: 100%;
+  }
+  .right ul {
+    width: 100%;
+  }
+  .right li,
+  span {
+    padding: 0.5rem 0;
+    font-size: 0.84rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .row h1 {
+    font-size: 2.3rem;
+  }
+  .row h3 {
+    font-size: 1rem;
+  }
+  ._row {
+    width: 45%;
+  }
+  .work-text h5 {
+    padding: 7px;
+    margin: 7px 0;
+    font-size: 0.7rem;
+  }
+
+  .contact-me {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .contact-icon a {
+    padding: 5px;
+  }
+  .first-modal h2 span{
+    font-size: 1.4rem;
+  }
+  .dropdown-links {
+    right: 20px;
+  }
+} 
+@media screen and (max-width: 470px) {
+  .logo {
+    width: 40%;
+    font-size: 0.6rem;
+  }
+  .services img {
+    width: 30px;
+  }
+  .services {
+    width: 80vw;
+  }
+  .skill-text {
+    width: 40%;
+  }
+  .skill-text h1 {
+    font-size: 1.3rem;
+  }
+  .skill-card {
+    width: 80%;
+  }
+  .work-text h1 {
+    font-size: 1.3rem;
+  }
+  .hire-first h1 {
+    font-size: 1.3rem;
+  }
+  .hire-card {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .hire-card h5 {
+    font-size: 0.8rem;
+  }
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+  aside h2 {
+    font-size: 1rem;
+  }
+  input {
+    width: 90vw;
+  }
+  ::placeholder {
+    font-size: 0.7rem;
+  }
+  textarea {
+    width: 90vw;
+  }
+  .contact-card {
+    width: 90%;
+  }
+  .contact-card p,.copyright-section p,.copyright-section a {
+    font-size: 0.7rem;
+  }
+  .back-to-top {
+    width: 35px;
+    height: 35px;
+  }
+  .first-modal{
+    top: 8vh;
+    border-radius: 22px;
+  }
+  .first-modal h1{
+    font-size: 3rem;
+  }
+  .first-modal img {
+    width: 25vh;
+    height: 25vh;
+  }
+  .first-modal #cross {
+    width: 6vh;
+    height: 5vh;
+    border-radius: 0 20px 0 20px;
+  }
+  .second-nav {
+    padding-top: 70px;
+  }
+  .btn-l{
+    width: 90%;
+  }
+  
+}
+@media screen and (max-width: 385px) {
+  
+  .submit-btn{
+    width: 100%;
+  }
+  .btn-m{
+    margin-top: 8px;
+  }
+  main {
+    line-height: 3rem;
+  }
+  .main-links{
+    margin: 20px;
+  }
+  main h1 {
+    font-size: 2.2rem;
+  }
+  main h3 {
+    font-size: 1rem;
+  }
+  .right ul button {
+    width: 90%;
+    margin-left: 3vw;
+  }
+  .btn-s {
+    padding: 8px 20px;
+    width: 90%;
+    margin: 15px 0;
+  }
+  .first-modal h1{
+    font-size: 2.5rem;
+  }
+  form{
+    width: 82%;
+  }
+  
+  .last-nav{
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .service-text h1 {
+    font-size: 1rem;
+  }
+  .service-text  {
+    margin-bottom: 3vh;
+  }
+  .skill-card {
+    width: 90%;
+  }
+  .skill-card h4 {
+    font-size: 0.7rem;
+  }
+  .left h1 {
+    font-size: 1rem;
+  }
+  .left p {
+    font-size: 0.8rem;
+  }
+  .right {
+    padding: 0;
+  }
+  .right ul {
+    width: 90%;
+    margin-inline: auto;
+  }
+  .right li {
+    font-size: 0.8rem;
+  }
+  .row {
+    margin: 0;
+    padding:15px;
+    margin: 20px 5px;
+  }
+  .row h1 {
+    font-size: 1.8rem;
+  }
+  .row h3 {
+    font-size: 0.7rem;
+  }
+  .service {
+    margin: 0;
+    padding: 0;
+  }
+  .services {
+    width: 90%;
+  }
+  .skill-text {
+    width: 50%;
+  }
+  .skill-card span{
+    font-size: 0.7rem;
+  }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+  .first-modal h1{
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 291px) {
+  main h1 {
+    text-align: center;
+  }
+  main h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .right span {
+    font-size: 0.7rem;
+  }
+  .right a {
+    font-size: 0.7rem;
+  }
+  .right {
+    width: 100%;
+    padding-left:5px;
+  }
+  .right ul {
+    width: 100%;
+  }
+  .right ul li,
+  .right ul span,
+  .right ul a {
+    font-size: 0.8rem;
+  }
+  .last-nav {
+     padding: 5px;
+  }
+  .contact-icon a{
+    padding: 5px 0;
+  }
+  .copyright-section{
+    padding: 0;
+  }
+}

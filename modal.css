@@ -1,0 +1,360 @@
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--secondary-background-color);
+  backdrop-filter: blur(10px);
+}
+
+.back-to-top a {
+  color: var(--secondary-color);
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 60px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--secondary-background-color);
+  backdrop-filter: blur(10px);
+  font-size: 0.9rem;
+}
+
+.whatsapp-icon:hover {
+  background-color: #277142;
+}
+
+.whatsapp-icon i {
+  color: var(--secondary-color);
+}
+
+.whatsapp-icon i:hover {
+  color: white;
+}
+
+.whatsapp-container {
+  width: 250px;
+  height: 170px;
+  background-color: #277142d9;
+  background: linear-gradient(to top left, #bdc3c7, #2c3e50);
+  position: absolute;
+  position: fixed;
+  right: -100%;
+  bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease-out;
+}
+
+.whatsapp-container-open {
+  right: 20px;
+}
+
+#cross2 {
+  position: absolute;
+  top: 1.5vh;
+  right: 1.5vh;
+  color: black;
+}
+
+.whatsapp-container div {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.whatsapp-container div button {
+  border: 0.1px solid black;
+  color: black;
+}
+
+.whatsapp-container div button:hover {
+  background-color: #135b2d;
+  border: none;
+}
+
+/* first modal  */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.first-modal {
+  position: fixed;
+  top: 11vh;
+  left: 10vw;
+  width: 80vw;
+  height: 80vh;
+  flex-direction: column;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  justify-content: space-around;
+  padding: 2vh;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Calligraffitti", cursive;
+  background: linear-gradient(to top left, #bdc3c7, #2c3e50);
+}
+
+.first-modal img {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-modal #cross {
+  position: absolute;
+  top: 0.2vh;
+  right: 0.2vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.first-modal h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 1px 5px #fff;
+  filter: drop-shadow(0px 0px 10px #3723a1);
+}
+
+.first-modal a {
+  margin: 10px;
+}
+
+.first-modal h3 {
+  filter: drop-shadow(0px 0px 3px #3723a1);
+}
+
+.first-modal h2 span {
+  font-family: "Poppins", sans-serif;
+  filter: drop-shadow(0px 0px 3px #3723a1);
+}
+
+/* submit modal */
+
+.second-modal {
+  position: absolute;
+  top: 25vh;
+  left: -100%;
+  width: 42vw;
+  height: 40vh;
+}
+
+.chat1 {
+  left: 30vw;
+}
+
+.thanks-section {
+  position: fixed;
+  width: 40vw;
+  height: 35vh;
+  background: rgba(255, 255, 255, 0.623);
+  background: linear-gradient(to top left, #bdc3c7, #2c3e50);
+  color: black;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 0 5vw;
+  flex-direction: column;
+}
+
+.second-modal h1,
+.second-modal p {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.btn-l {
+  width: 70%;
+  border: none;
+  border-radius: 30px;
+  background-color: #1bab80;
+  color: white;
+  padding: 8px 40px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#moon {
+  cursor: pointer;
+}
+
+#moon:hover {
+  color: rgb(123, 123, 123);
+}
+
+#ham {
+  display: none;
+}
+
+.bar {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+
+.bar1 {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+
+.side-nav {
+  margin-right: 5px;
+  gap: 20px;
+}
+
+/* dropdown */
+.dropdown-links {
+  flex-direction: column;
+  position: fixed;
+  top: 7vh;
+  z-index: 1000;
+  right: 65px;
+  width: 250px;
+  height: 0;
+  overflow: hidden;
+  gap: 10px;
+  background: linear-gradient(to top left, #bdc3c7, #1f3952);
+  align-items: flex-start;
+  padding-inline: 20px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.drop-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url('bg.jpg') center center/cover no-repeat;
+  animation: name-l 1.5s ease-in-out infinite alternate-reverse;
+}
+
+#logo-2:hover {
+  transform: scale(1.05);
+}
+
+.profile {
+  width: 170px;
+  margin-inline: auto;
+  flex-direction: column;
+  color: white;
+}
+
+.profile h3 {
+  filter: drop-shadow(2px 2px 10px #2c12ae);
+}
+
+.drop-image img {
+  width: 75px;
+}
+
+.dropdown-links span {
+  padding: 6px;
+}
+
+.drop {
+  height: 350px;
+  padding: 15px 20px;
+}
+
+.dropdown-links #cross1 {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  color: white;
+}
+
+/* dropdown 2 */
+.dropdown-links-2 {
+  position: fixed;
+  top: 7.5vh;
+  z-index: 1000;
+  right: 35px;
+  width: 135px;
+  height: 0;
+  background: linear-gradient(to top left, #6d7e89, #bdc7d0);
+  padding-inline: 20px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  animation: floating 2s linear infinite;
+}
+
+.dropdown-links-2 a h4 {
+  font-weight: 500;
+}
+
+.drop-2 {
+  height: 7vh;
+  border: 0.1px solid #1f3952;
+}
+
+.second-nav {
+  position: fixed;
+  top: 0;
+  right: -200%;
+  width: 100vw;
+  height: 70vh;
+  padding: 20px;
+  z-index: 1000;
+  background: linear-gradient(to top left, #bdc3c7, #2c3e50);
+  transition: all 0.3s;
+}
+
+.second-nav ul {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#cross3 {
+  color: white;
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  width: 6vh;
+  height: 5vh;
+  background-color: #007d51;
+  border-radius: 0 50% 0 50%;
+}
+
+.second-nav-active {
+  right: 0;
+}
+
+.second-nav ul {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.second-nav ul li {
+  padding: 8px;
+  margin: 2px;
+  width: 96vw;
+}
+
+.second-nav ul li:hover {
+  color: black;
+  background-color: rgba(108, 108, 108, 0.221);
+  backdrop-filter: blur(5px);
+}
